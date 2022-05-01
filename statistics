@@ -1,0 +1,9 @@
+> library(readxl)
+> datafile <- read_excel("C:/Users/HP/Downloads/datafile.xls")
+> View(datafile)
+> silviya<- read_excel("C:/Users/HP/Downloads/datafile.xls")
+> 
+> mean(silviya$max_price)
+[1] 1748.58
+> sd(silviya$modal_price)
+[1] 181.8431
